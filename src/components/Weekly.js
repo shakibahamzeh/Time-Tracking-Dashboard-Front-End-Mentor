@@ -4,7 +4,6 @@ import "../styles/weekly.css";
 import WeeklyCard from './WeeklyCard';
 
 function weekly() {
-    console.log(data[0].timeframes.daily.current);
   return (
     <div className='weekly'>
       {

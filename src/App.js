@@ -13,9 +13,9 @@ function App() {
         <Sidebar/>
       <Routes>
         <Route path="/" element={<Daily/>}/>
-        <Route path="/daily" element={<Daily/>}/>
-        <Route path='/weekly' element={<Weekly/>}/>
-        <Route path='/monthly' element={<Monthly/>}/>
+        <Route path="/Daily" element={<Daily/>}/>
+        <Route path='/Weekly' element={<Weekly/>}/>
+        <Route path='/Monthly' element={<Monthly/>}/>
       </Routes>
       </div>
     </div>
